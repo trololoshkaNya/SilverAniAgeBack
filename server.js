@@ -5,7 +5,7 @@ const port = 3000
 
 app.use(cors())
 
-app.get('/api/base', (req, res) => {
+app.get('/api/base', cors(corsOptions), (req, res) => {
     res.json([
         {
             'url': 'https://www.silver-aniage.ru/66-katsute-mahou-shoujo-to-aku-wa-tekitai-shiteita',
@@ -26,9 +26,15 @@ app.get('/api/base', (req, res) => {
             'season': 'false'
         },
     ]
-    ),
-        res.header('Access-Control-Allow-Origin', "*");
+    )
 })
+
+const corsOptions = {
+    origin: '*',
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+    preflightContinue: false,
+    optionsSuccessStatus: 204
+}
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
