@@ -5,6 +5,12 @@ const port = 3000
 
 app.use(cors())
 
+const corsOptions = {
+    origin: '*',
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+    preflightContinue: false,
+}
+
 app.get('/api/base', cors(corsOptions), (req, res) => {
     res.json([
         {
@@ -28,13 +34,6 @@ app.get('/api/base', cors(corsOptions), (req, res) => {
     ]
     )
 })
-
-const corsOptions = {
-    origin: '*',
-    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-    preflightContinue: false,
-    optionsSuccessStatus: 204
-}
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
