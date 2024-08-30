@@ -26,8 +26,8 @@ app.get('/api/base', (req, res) => {
             'season': 'false'
         },
     ]
-
-    )
+    ),
+        res.header('Access-Control-Allow-Origin', "*");
 })
 
 app.listen(port, () => {
