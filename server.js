@@ -25,6 +25,7 @@ app.get('/api/base', cors(corsOptions), (req, res) => {
                     'url': 'https://www.silver-aniage.ru/64-tensei-shitara-slime-datta-ken',
                     'player': 'https://kodik.online/serial/58716/RmvG4a6efcac94',
                     'player2': 'https://kodik.online/serial/60998/RmvG4aedb3527f',
+                    'poster': 'https://desu.shikimori.one/uploads/poster/animes/37430/2dd416dc513bcf4cbdd74ae64fab1255.jpeg',
                     'season': 'true'
                 },
                 {
