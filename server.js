@@ -34,6 +34,12 @@ app.get('/api/base', cors(corsOptions), (req, res) => {
                     'player': 'https://kodik.online/serial/60998/RmvG4aedb3527f',
                     'season': 'false'
                 },
+                {
+                    'url': 'https://www.silver-aniage.ru/55-tokidoki-bosotto-russia',
+                    'poster': 'https://desu.shikimori.one/uploads/poster/animes/54744/de6fc036f101d94a4f738be3f0415d2c.jpeg',
+                    'player': 'https://kodik.online/serial/60230/RmvG4a06a93578',
+                    'season': 'false'
+                }
             ]
         })
 })
