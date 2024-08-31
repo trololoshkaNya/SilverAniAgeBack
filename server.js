@@ -36,7 +36,7 @@ app.get('/api/base', cors(corsOptions), (req, res) => {
                 },
                 {
                     'url': 'https://www.silver-aniage.ru/55-tokidoki-bosotto-russia',
-                    'poster': 'https://desu.shikimori.one/uploads/poster/animes/54744/de6fc036f101d94a4f738be3f0415d2c.jpeg',
+                    'poster': 'https://i.postimg.cc/ZRX5mwKw/alya-neshakal-ii.png',
                     'player': 'https://kodik.online/serial/60230/RmvG4a06a93578',
                     'season': 'false'
                 }
