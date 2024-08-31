@@ -17,7 +17,7 @@ app.get('/api/base', cors(corsOptions), (req, res) => {
             "blocklist": [
                 {
                     'url': 'https://www.silver-aniage.ru/66-katsute-mahou-shoujo-to-aku-wa-tekitai-shiteita',
-                    'poster': 'https://desu.shikimori.one/uploads/poster/animes/57217/008f8a58a8cfda4627a3bb8438e750a0.jpeg',
+                    'poster': 'https://i.postimg.cc/Zq7r8zV0/volsh-ofi.png',
                     'player': '',
                     'season': 'false'
                 },
